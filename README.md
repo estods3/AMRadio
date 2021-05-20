@@ -2,7 +2,7 @@
 An AM Radio build with BOM and schematic
 <p align="center">
  <img src="https://github.com/estods3/AMRadio/blob/main/radioisometric.jpg" alt="drawing" width="500"/>
- <img src="https://github.com/estods3/AMRadio/blob/main/radiowithearbuds.jpg" alt="drawing" width="230"/>
+ <img src="https://github.com/estods3/AMRadio/blob/main/radiowithearbuds.jpg" alt="drawing" width="260"/>
 </p>
 
 ## BOM
