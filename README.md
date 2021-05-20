@@ -7,7 +7,7 @@ An AM Radio build with BOM and schematic
 ## BOM
 
 <p align="center">
- <img src="https://github.com/estods3/AMRadio/blob/main/radioisometric.jpg" alt="drawing" width="500"/>
+ <img src="https://github.com/estods3/AMRadio/blob/main/radiotopdown.jpg" alt="drawing" width="500"/>
 </p>
 ### Coil
 * 1 Toilet Paper Roll
