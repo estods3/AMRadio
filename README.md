@@ -10,7 +10,9 @@ An AM Radio build with BOM and schematic
 <p align="center">
  <img src="https://github.com/estods3/AMRadio/blob/main/radiotopdown.jpg" alt="drawing" width="500"/>
 </p>
+
 ### AM Loopstick 
+
 antenna, coil, and tuning capacitor
 
 * 1 Toilet Paper Roll
