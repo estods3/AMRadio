@@ -7,6 +7,8 @@ An AM Radio build with BOM and schematic
 
 ## BOM
 
+Materials used to make this project.
+
 <p align="center">
  <img src="https://github.com/estods3/AMRadio/blob/main/radiotopdown.jpg" alt="drawing" width="500"/>
 </p>
@@ -37,6 +39,14 @@ NOTE: For this project, an 8 ohm impedance output was desired (to use with moder
 * 1 audio jack
 
 * 1 audio amplifier chip
+
+### Enclosure
+
+Just for decorative purposes
+
+* Balsa wood
+
+* Natural Wood Stain
 
 ## Schematic
 TODO
