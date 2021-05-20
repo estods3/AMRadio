@@ -30,7 +30,7 @@ antenna, coil, and tuning capacitor
 ### Circuit
 * 1 Germanium Diode
 
-* Electrolydic Capacitors
+* Electrolytic Capacitor
 
 * Ceramic Capacitors
 
