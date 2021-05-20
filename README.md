@@ -51,6 +51,9 @@ Just for decorative purposes
 ## Schematic
 TODO
 
+9V operating voltage.
+NOTE: An external variable power supply with ground connection was used to power this project.
+
 
 ## Resources
 TODO
