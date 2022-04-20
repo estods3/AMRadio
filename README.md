@@ -5,6 +5,31 @@ An AM Radio build with BOM and schematic
  <img src="https://github.com/estods3/AMRadio/blob/main/radiowithearbuds.jpg" alt="drawing" width="281"/>
 </p>
 
+## Design
+### Criteria
+Medium Wave (MV) AM Radio
+Frequency Range: 525kHz - 1600kHz
+
+Using a 0-200pF variable air-gap capacitor + fixed 50pF ceramic capacitor in parallel in loopstick antenna.
+
+### Results
+#### 360uH Inductive Coil
+Length: 
+
+Diameter: 10mm
+
+Number of Turns:
+
+
+#### 50pF-250pF variable capacitor
+
+#### Frequency Table
+
+| Frequency (kHz) | Inductance () | Capacitance () |
+| ----------- | ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
 ## BOM
 
 Materials used to make this project.
@@ -17,18 +42,14 @@ Materials used to make this project.
 
 antenna, coil, and tuning capacitor
 
-* 1 Toilet Paper Roll
+* 140mm by 10mm (diameter) ferrite rod
 
 * 1 roll of Magnet Wire
 
-* Sandpaper - to lightly strape of insulation of wire on one side of top of coil.
-
-* 1 variable capacitor (air gap capacitor)
-
-* Antenna - a few feet of wire
+* 1 365pF variable capacitor (air gap capacitor)
 
 ### Circuit
-* 1 Germanium Diode
+* 1 1N34 Germanium Diode
 
 * Electrolytic Capacitor
 
@@ -57,3 +78,8 @@ NOTE: An external variable power supply with ground connection was used to power
 
 ## Resources
 http://techlib.com/electronics/crystal.html
+http://radio-timetraveller.blogspot.com/2011/01/unassuming-antenna-ferrite-loopstick.html
+https://radio-locator.com/
+https://goodcalculators.com/resonant-frequency-calculator/
+https://www.petervis.com/Radios/ferrite-rod-antenna-coil/calculator-for-mw-radio-coil.html
+https://coil32.net/online-calculators/ferrite-rod-calculator.html
