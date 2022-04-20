@@ -7,11 +7,10 @@ An AM Radio build with BOM and schematic
 
 ## Design
 ### Criteria
-Medium Wave (MV) AM Radio
-Frequency Range: 525kHz - 1600kHz
+* Medium Wave (MV) AM Radio. Frequency Range: 525kHz - 1600kHz
 
-Using an AM "Loopstick" antenna consisting of a 140mm x 10mm cylindrical ferrite rod and 
-0-200pF variable air-gap capacitor + fixed 50pF ceramic capacitor in parallel (C=250pF).
+* Using an AM "Loopstick" antenna consisting of a 140mm x 10mm cylindrical ferrite rod and 
+  0-200pF variable air-gap capacitor + fixed 50pF ceramic capacitor in parallel (C=250pF).
 
 ### Results
 #### 360uH Inductive Coil
