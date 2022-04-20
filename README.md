@@ -12,9 +12,13 @@ An AM Radio build with BOM and schematic
 * Using an AM "Loopstick" antenna consisting of a 140mm x 10mm cylindrical ferrite rod and 
   0-200pF variable air-gap capacitor + fixed 50pF ceramic capacitor in parallel (C=250pF).
 
+* 9V operating voltage
+
 ### Results
 
-#### Frequency Table
+#### Frequency Heatmap
+Determine the combinations of L and C that produce frequencies in the desired range. In this case, the MW AM spectrum.
+[<img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/loopstick_frequency_LC_design.png" title="LC Tank Design" alt="drawing" width="200"/>]
 
 Calculate a frequency table. For each desired frequency, compute what the needed inductance and capacitance.
 
@@ -44,6 +48,11 @@ Number of Turns:
 
 
 #### 50pF-250pF variable capacitor
+
+## Schematic
+ 2 Stage AM Radio consisting of AM Loopstick antenna (Design Above), Stage 1 Demodulation Circuit, Stage 2 Amplification Circuit, and Output Connector to 3.5mm audio jack.
+
+[<img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/schematic_screenshot.png" title="AM Radio 1 Scematic" alt="drawing" width="200"/>]
 
 ## BOM
 
@@ -83,13 +92,6 @@ Just for decorative purposes
 * Balsa wood
 
 * Natural Wood Stain
-
-## Schematic
-TODO
-
-9V operating voltage.
-NOTE: An external variable power supply with ground connection was used to power this project.
-
 
 ## Resources
 http://techlib.com/electronics/crystal.html
