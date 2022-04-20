@@ -56,4 +56,4 @@ NOTE: An external variable power supply with ground connection was used to power
 
 
 ## Resources
-TODO
+http://techlib.com/electronics/crystal.html
