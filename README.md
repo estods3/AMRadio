@@ -13,7 +13,29 @@ An AM Radio build with BOM and schematic
   0-200pF variable air-gap capacitor + fixed 50pF ceramic capacitor in parallel (C=250pF).
 
 ### Results
-#### 360uH Inductive Coil
+
+#### Frequency Table
+
+Calculate a frequency table. For each desired frequency, compute what the needed inductance and capacitance.
+
+Calculator: https://goodcalculators.com/resonant-frequency-calculator/
+
+| Frequency (kHz) | Inductance (uH) | Capacitance (pF) |
+| ----------- | ----------- | ----------- |
+| 500      |    405     |    250   |
+| 600      |    281     |    250   |
+| 700      |    206     |    250   |
+| 800      |    158     |    250   |
+| 900      |    156     |    200   |
+| 1000      |    126     |    200   |
+| 1100      |    105     |    200   |
+| 1200      |    88    |    200   |
+| 1300      |    75     |    200   |
+| 1400      |    126     |    100   |
+| 1500      |    113     |    100   |
+| 1600      |    200     |    50   |
+
+#### 405uH Inductive Coil
 Length: 
 
 Diameter: 10mm
@@ -22,13 +44,6 @@ Number of Turns:
 
 
 #### 50pF-250pF variable capacitor
-
-#### Frequency Table
-
-| Frequency (kHz) | Inductance () | Capacitance () |
-| ----------- | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
 
 ## BOM
 
