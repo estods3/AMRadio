@@ -6,7 +6,7 @@ An AM Radio build with BOM and schematic
 </p>
 
 ## Antenna Design
-This section describes the criteria and techniques used to determine an antenna design for the radio
+This section describes the criteria and techniques used to determine an antenna design for the radio.
 
 ### Criteria
 * Medium Wave (MV) AM Radio. Frequency Range: 525kHz - 1600kHz
@@ -25,28 +25,20 @@ Based on the design criteria above, here is the produced antenna design.
 Determine the combinations of L and C that produce frequencies in the desired range. In this case, the MW AM spectrum.
 <img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/loopstick_frequency_LC_design.png" title="LC Tank Design" alt="drawing" width="500"/>
 
-This heatmap was then sampled into table format of radio signals in my area.
-
 Calculator: https://goodcalculators.com/resonant-frequency-calculator/
 Radio Finder: https://radio-locator.com/
 
-| Frequency (kHz) | Inductance (uH) | Capacitance (pF) |
-| ----------- | ----------- | ----------- |
-| 500      |    405     |    250   |
-| 600      |    281     |    250   |
-| 700      |    206     |    250   |
-| 800      |    158     |    250   |
-| 900      |    156     |    200   |
-| 1000      |    126     |    200   |
-| 1100      |    105     |    200   |
-| 1200      |    88    |    200   |
-| 1300      |    75     |    200   |
-| 1400      |    126     |    100   |
-| 1500      |    113     |    100   |
-| 1600      |    200     |    50   |
+#### 400uH Inductive Coil
+The inductance range needed for the coil was 150 - 400uH.
+The coil needs to have 10 taps in it to allow the user to tune their radio to the desired frequency.
 
-#### 405uH Inductive Coil
-The inductance range needed for the coil was 200 - 405uH.
+Therefore, 10 positions covers from 150 to 400uH, as evenly spaced as possible. This is shown in the new heatmap below.
+
+<img src=https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/LC_tap_design.png" title="LC Tap Design" alt="drawing" width="500"/>
+
+
+The capacitor can be varied freely at each tap position. This results in the frequency range shown in the right column.
+
 
 Length: 
 
