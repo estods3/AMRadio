@@ -1,24 +1,34 @@
 # AMRadio
 An AM Radio build with BOM and schematic
 <p align="center">
- <img src="https://github.com/estods3/AMRadio/blob/main/radioisometric.jpg" alt="drawing" width="500"/>
- <img src="https://github.com/estods3/AMRadio/blob/main/radiowithearbuds.jpg" alt="drawing" width="281"/>
+ <img src="https://github.com/estods3/AMRadio/blob/main/radioisometric.jpg" alt="drawing" width="250"/>
+ <img src="https://github.com/estods3/AMRadio/blob/main/radiowithearbuds.jpg" alt="drawing" width="140"/>
 </p>
 
-## Design
+## Antenna Design
+This section describes the criteria and techniques used to determine an antenna design for the radio
+
 ### Criteria
 * Medium Wave (MV) AM Radio. Frequency Range: 525kHz - 1600kHz
 
 * Using an AM "Loopstick" antenna consisting of a 140mm x 10mm cylindrical ferrite rod and 
   0-200pF variable air-gap capacitor + fixed 50pF ceramic capacitor in parallel (C=250pF).
+  
+* 10 "taps" in the coil using a 10-position rotary switch. 
+
+* 9V operating voltage
 
 ### Results
+Based on the design criteria above, here is the produced antenna design.
 
-#### Frequency Table
+#### Frequency Heatmap
+Determine the combinations of L and C that produce frequencies in the desired range. In this case, the MW AM spectrum.
+<img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/loopstick_frequency_LC_design.png" title="LC Tank Design" alt="drawing" width="500"/>
 
-Calculate a frequency table. For each desired frequency, compute what the needed inductance and capacitance.
+This heatmap was then sampled into table format of radio signals in my area.
 
 Calculator: https://goodcalculators.com/resonant-frequency-calculator/
+Radio Finder: https://radio-locator.com/
 
 | Frequency (kHz) | Inductance (uH) | Capacitance (pF) |
 | ----------- | ----------- | ----------- |
@@ -36,6 +46,8 @@ Calculator: https://goodcalculators.com/resonant-frequency-calculator/
 | 1600      |    200     |    50   |
 
 #### 405uH Inductive Coil
+The inductance range needed for the coil was 200 - 405uH.
+
 Length: 
 
 Diameter: 10mm
@@ -45,12 +57,17 @@ Number of Turns:
 
 #### 50pF-250pF variable capacitor
 
+## Schematic
+ 2 Stage AM Radio consisting of AM Loopstick antenna (Design Above), Stage 1 Demodulation Circuit, Stage 2 Amplification Circuit, and Output Connector to 3.5mm audio jack.
+
+[<img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/schematic_screenshot.png" title="AM Radio 1 Scematic" alt="drawing" width="200"/>]
+
 ## BOM
 
 Materials used to make this project.
 
 <p align="center">
- <img src="https://github.com/estods3/AMRadio/blob/main/radiotopdown.jpg" alt="drawing" width="500"/>
+ <img src="https://github.com/estods3/AMRadio/blob/main/radiotopdown.jpg" alt="drawing" width="300"/>
 </p>
 
 ### AM Loopstick 
@@ -83,13 +100,6 @@ Just for decorative purposes
 * Balsa wood
 
 * Natural Wood Stain
-
-## Schematic
-TODO
-
-9V operating voltage.
-NOTE: An external variable power supply with ground connection was used to power this project.
-
 
 ## Resources
 http://techlib.com/electronics/crystal.html
