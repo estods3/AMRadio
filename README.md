@@ -52,7 +52,7 @@ Number of Turns:
 ## Schematic
  2 Stage AM Radio consisting of AM Loopstick antenna (Design Above), Stage 1 Demodulation Circuit, Stage 2 Amplification Circuit, and Output Connector to 3.5mm audio jack.
 
-<img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/schematic_screenshot.png" title="AM Radio 1 Scematic" alt="drawing" width="800"/>
+<img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/schematic_screenshot.png" title="AM Radio 1 Scematic" alt="drawing" width="1000"/>
 
 ## Bill of Materials
 
