@@ -1,5 +1,5 @@
 # AMRadio
-An AM Radio build with BOM and schematic
+An AM Radio build with antenna design models, BOM, and schematic.
 <p align="center">
  <img src="https://github.com/estods3/AMRadio/blob/main/radioisometric.jpg" alt="drawing" width="250"/>
  <img src="https://github.com/estods3/AMRadio/blob/main/radiowithearbuds.jpg" alt="drawing" width="140"/>
@@ -9,14 +9,14 @@ An AM Radio build with BOM and schematic
 This section describes the criteria and techniques used to determine an antenna design for the radio.
 
 ### Criteria
-* Medium Wave (MV) AM Radio. Frequency Range: 525kHz - 1600kHz
+* Medium Wave (MV) AM Radio. Frequency Range: 525kHz - 1600kHz.
 
 * Using an AM "Loopstick" antenna consisting of a 140mm x 10mm cylindrical ferrite rod and 
   0-200pF variable air-gap capacitor + fixed 50pF ceramic capacitor in parallel (C=250pF).
   
 * 10 "taps" in the coil using a 10-position rotary switch. 
 
-* 9V operating voltage
+* 9V operating voltage (used in amplifier).
 
 ### Results
 Based on the design criteria above, here is the produced antenna design.
@@ -52,17 +52,13 @@ Number of Turns:
 ## Schematic
  2 Stage AM Radio consisting of AM Loopstick antenna (Design Above), Stage 1 Demodulation Circuit, Stage 2 Amplification Circuit, and Output Connector to 3.5mm audio jack.
 
-[<img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/schematic_screenshot.png" title="AM Radio 1 Scematic" alt="drawing" width="200"/>]
+<img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/schematic_screenshot.png" title="AM Radio 1 Scematic" alt="drawing" width="800"/>
 
-## BOM
+## Bill of Materials
 
 Materials used to make this project.
 
-<p align="center">
- <img src="https://github.com/estods3/AMRadio/blob/main/radiotopdown.jpg" alt="drawing" width="300"/>
-</p>
-
-### AM Loopstick 
+### AM Loopstick
 
 antenna, coil, and tuning capacitor
 
