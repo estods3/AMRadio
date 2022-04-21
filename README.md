@@ -25,20 +25,20 @@ Based on the design criteria above, here is the produced antenna design.
 Determine the combinations of L and C that produce frequencies in the desired range. In this case, the MW AM spectrum.
 <img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/loopstick_frequency_LC_design.png" title="LC Tank Design" alt="drawing" width="500"/>
 
+This heatmap can be produced using the model scripts/LCplotter.py.
+
 Calculator: https://goodcalculators.com/resonant-frequency-calculator/
+
 Radio Finder: https://radio-locator.com/
 
 #### 400uH Inductive Coil
-The inductance range needed for the coil was 150 - 400uH.
-The coil needs to have 10 taps in it to allow the user to tune their radio to the desired frequency.
-
-Therefore, 10 positions covers from 150 to 400uH, as evenly spaced as possible. This is shown in the new heatmap below.
+The inductance range needed for the coil was 150 - 400uH. The coil needs to have taps to allow the user to tune their radio to a desired resonance frequency. Here. 10 positions are used to cover from 150 to 400uH, as evenly spaced as possible. This is shown in the new heatmap below.
 
 <img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/LC_tap_design.png" title="LC Tap Design" alt="drawing" width="500"/>
 
+The capacitor can be varied freely at each tap position to fine tune the resonance frequency
 
-The capacitor can be varied freely at each tap position. This results in the frequency range shown in the right column.
-
+This heatmap can be produced using the model scripts/LCplotter.py.
 
 Length: 
 
