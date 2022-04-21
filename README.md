@@ -34,7 +34,7 @@ The coil needs to have 10 taps in it to allow the user to tune their radio to th
 
 Therefore, 10 positions covers from 150 to 400uH, as evenly spaced as possible. This is shown in the new heatmap below.
 
-<img src=https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/LC_tap_design.png" title="LC Tap Design" alt="drawing" width="500"/>
+<img src="https://github.com/estods3/AMRadio/blob/main/Radio1:%20AM%20Radio%20Germanium%20Diode/LC_tap_design.png" title="LC Tap Design" alt="drawing" width="500"/>
 
 
 The capacitor can be varied freely at each tap position. This results in the frequency range shown in the right column.
