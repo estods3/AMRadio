@@ -12,7 +12,7 @@ This section describes the criteria and techniques used to determine an antenna 
 * Medium Wave (MV) AM Radio. Frequency Range: 525kHz - 1600kHz.
 
 * Using an AM "Loopstick" antenna consisting of a 140mm x 10mm cylindrical ferrite rod and 
-  0-200pF variable air-gap capacitor + fixed 50pF ceramic capacitor in parallel (C=250pF).
+  0-200pF variable air-gap capacitor + fixed 56pF ceramic capacitor in parallel (C=256pF).
   
 * 10 "taps" in the coil using a 10-position rotary switch. 
 
@@ -47,7 +47,8 @@ Diameter: 10mm
 Number of Turns:
 
 
-#### 50pF-250pF variable capacitor
+#### 56pF-256pF variable capacitor
+A 56pF ceramic capacitor in parallel with a 250pF variable air-gap capacitor.
 
 ## Schematic
  2 Stage AM Radio consisting of AM Loopstick antenna (Design Above), Stage 1 Demodulation Circuit, Stage 2 Amplification Circuit, and Output Connector to 3.5mm audio jack.
@@ -65,8 +66,6 @@ antenna, coil, and tuning capacitor
 * 140mm by 10mm (diameter) ferrite rod
 
 * 1 roll of Magnet Wire
-
-* 1 365pF variable capacitor (air gap capacitor)
 
 ### Circuit
 * 1 1N34 Germanium Diode
